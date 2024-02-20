@@ -9,3 +9,13 @@ This service manages the tasks in the productive app
 
 ### Infrastructure
 - AWS CDK
+
+### Local development
+#### Run the service
+```
+sbt tasksService/run
+```
+#### Run unit test
+```
+sbt tasksService/test
+```
